@@ -39,3 +39,9 @@ db.createUser({ user: "dev", pwd: "dev", roles: ["root"] })
 ```sh
 mongodb://localhost:27017/taskmanager
 ```
+
+# Generate jwt key for your app
+
+```sh
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+```
