@@ -34,3 +34,8 @@ use admin
 db.createUser({ user: "dev", pwd: "dev", roles: ["root"] })
 ```
 
+# Mongo Db uri 
+
+```sh
+mongodb://localhost:27017/taskmanager
+```
