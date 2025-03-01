@@ -14,7 +14,7 @@ const TaskTable = ({ tasks, handleEdit }) => {
 
     return (
         <>
-            <TableContainer component={Paper} sx={{ maxWidth: 800, margin: "auto", mt: 3 }}>
+            <TableContainer component={Paper} sx={{  margin: "auto", mt: 3 , width: "100%"}}>
                 <Table>
                     {/* Table Header */}
                     <TableHead>
