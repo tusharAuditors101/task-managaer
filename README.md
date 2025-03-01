@@ -82,3 +82,14 @@ node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 ```sh
 npx create-react-app frontend
 ```
+
+# Install Depnedencies
+```sh
+npm install axios react-router-dom tailwindcss
+```
+
+# Configure Tailwind
+
+```sh
+npx tailwindcss init -p
+```
