@@ -1,3 +1,34 @@
+# Explaination
+Task Manager (MERN CRUD App) - Step-by-Step Guide
+
+Overview
+
+The Task Manager is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to create, read, update, and delete (CRUD) tasks efficiently. Users can also mark tasks as completed, filter tasks, and manage their workflow.
+
+Features
+
+User authentication (JWT-based)
+
+CRUD operations on tasks
+
+Task filtering (by status, priority, etc.)
+
+Responsive UI with React
+
+Secure backend with Express & Node.js
+
+MongoDB for data storage
+
+Tech Stack
+
+Frontend: React, React Router, Axios, Tailwind CSS
+
+Backend: Node.js, Express.js, JWT, bcrypt
+
+Database: MongoDB (Mongoose ORM)
+
+Deployment: Vercel (Frontend), Render/Heroku (Backend), MongoDB Atlas
+
 # Setup Node
 
 ```sh
@@ -44,4 +75,10 @@ mongodb://localhost:27017/taskmanager
 
 ```sh
 node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+```
+
+# Create frontend app
+
+```sh
+npx create-react-app frontend
 ```
